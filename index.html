@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SentraSec AI Systems | AI Automation for Hospitality & Logistics</title>
+    <meta name="description" content="Transform your hospitality and logistics business with AI-driven automation." />
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- HEADER -->
+    <header id="header">
+        <div class="container nav">
+            <div class="logo">
+                <span class="logo-icon"><i class="fas fa-shield-halved"></i></span>
+                <span class="logo-text">SentraSec<span class="logo-highlight">AI</span></span>
+            </div>
+            <nav class="desktop-nav">
+                <a href="#about">About</a>
+                <a href="#services">Packages</a>
+                <a href="#why">Why Us</a>
+                <a href="#demos">Demos</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <a href="#audit" class="btn-nav-cta"><span>Free Audit</span><i class="fas fa-arrow-right"></i></a>
+            <button class="mobile-menu-btn" id="mobile-menu-btn"><span></span><span></span><span></span></button>
+        </div>
+        <div class="mobile-menu" id="mobile-menu">
+            <a href="#about">About</a>
+            <a href="#services">Packages</a>
+            <a href="#why">Why Us</a>
+            <a href="#demos">Demos</a>
+            <a href="#contact">Contact</a>
+            <a href="#audit" class="btn-primary">Free Audit</a>
+        </div>
+    </header>
+
+    <!-- SECTION 1: HERO -->
+    <section class="hero">
+        <div class="hero-glow"></div>
+        <div class="hero-glow-2"></div>
+        <div class="container hero-content">
+            <div class="hero-badge animate-float"><i class="fas fa-bolt"></i><span>Powered by Advanced AI</span></div>
+            <h1><span class="hero-title-line">AI Automation for</span><span class="hero-title-gradient">Hospitality &
+                    Logistics Businesses</span></h1>
+            <p class="hero-subtitle">I help restaurants, hotels, cafes, and logistics teams reduce workload and increase
+                revenue using AI-driven workflows.</p>
+            <div class="hero-btns">
+                <a href="https://wa.me/919597230780?text=I+want+an+automation+audit" class="btn-primary btn-glow"><i
+                        class="fab fa-whatsapp"></i><span>Book Free Automation Audit</span></a>
+                <a href="#services" class="btn-secondary"><span>View Packages</span><i
+                        class="fas fa-chevron-down"></i></a>
+            </div>
+            <div class="hero-trust">
+                <div class="trust-avatars">
+                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client">
+                    <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Client">
+                    <span class="trust-count">+50</span>
+                </div>
+                <div class="trust-text">
+                    <div class="trust-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+                    <span>Trusted by 50+ businesses across India</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 2: WHO WE ARE -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge"><i class="fas fa-building"></i> Who We Are</span>
+                <h2>SentraSec <span class="text-gradient">AI Systems</span></h2>
+            </div>
+            <div class="about-content glass-card">
+                <div class="about-icon"><i class="fas fa-robot"></i></div>
+                <div class="about-text">
+                    <p><strong>SentraSec AI Systems</strong> helps small and mid-sized businesses automate manual
+                        processes using modern AI workflows.</p>
+                    <p>We specialize in <strong>hospitality and logistics</strong> — industries where time, accuracy,
+                        and consistency matter most.</p>
+                    <p>Our mission is simple: <strong>eliminate repetitive work and help businesses grow
+                            faster.</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TRUST LOGOS -->
+    <section class="trust-logos">
+        <div class="container">
+            <p class="trust-label">Trusted by innovative businesses</p>
+            <div class="logos-track">
+                <div class="logos-slide">
+                    <div class="logo-item"><i class="fas fa-utensils"></i> Restaurant Pro</div>
+                    <div class="logo-item"><i class="fas fa-hotel"></i> LuxStay Hotels</div>
+                    <div class="logo-item"><i class="fas fa-truck"></i> FastTrack Logistics</div>
+                    <div class="logo-item"><i class="fas fa-mug-hot"></i> CloudCafe</div>
+                    <div class="logo-item"><i class="fas fa-warehouse"></i> SmartWarehouse</div>
+                    <div class="logo-item"><i class="fas fa-utensils"></i> Restaurant Pro</div>
+                    <div class="logo-item"><i class="fas fa-hotel"></i> LuxStay Hotels</div>
+                    <div class="logo-item"><i class="fas fa-truck"></i> FastTrack Logistics</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 3: THE 3 PACKAGES -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge"><i class="fas fa-cubes"></i> Our Packages</span>
+                <h2>Automation Solutions That <span class="text-gradient">Scale With You</span></h2>
+                <p class="section-desc">Choose the package that fits your business needs.</p>
+            </div>
+            <div class="service-grid">
+                <!-- Package A -->
+                <div class="card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="card-header">
+                        <div class="card-icon"><i class="fas fa-comments"></i></div><span class="card-tier">Package
+                            A</span>
+                    </div>
+                    <h3>Customer Communication Automation</h3>
+                    <p class="card-desc">Automate customer interactions and never miss a lead.</p>
+                    <ul class="card-features">
+                        <li><i class="fas fa-check"></i> AI chatbot for bookings</li>
+                        <li><i class="fas fa-check"></i> Auto FAQs</li>
+                        <li><i class="fas fa-check"></i> Lead capture</li>
+                        <li><i class="fas fa-check"></i> Auto WhatsApp/email follow-ups</li>
+                    </ul>
+                    <div class="card-pricing"><span class="price-label">Starting at</span><span
+                            class="price">₹15,000</span></div>
+                    <a href="#audit" class="btn-card"><span>Get Started</span><i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- Package B -->
+                <div class="card glass-card featured">
+                    <div class="card-glow"></div>
+                    <div class="popular-badge"><i class="fas fa-fire"></i> Most Popular</div>
+                    <div class="card-header">
+                        <div class="card-icon"><i class="fas fa-cogs"></i></div><span class="card-tier">Package B</span>
+                    </div>
+                    <h3>Operational Automation</h3>
+                    <p class="card-desc">Streamline your back-office and boost productivity.</p>
+                    <ul class="card-features">
+                        <li><i class="fas fa-check"></i> Inventory reminders</li>
+                        <li><i class="fas fa-check"></i> Staff scheduling automation</li>
+                        <li><i class="fas fa-check"></i> Auto daily reports</li>
+                        <li><i class="fas fa-check"></i> AI SOP generator</li>
+                    </ul>
+                    <div class="card-pricing"><span class="price-label">Starting at</span><span
+                            class="price">₹20,000</span></div>
+                    <a href="#audit" class="btn-card btn-featured"><span>Get Started</span><i
+                            class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- Package C -->
+                <div class="card glass-card">
+                    <div class="card-glow"></div>
+                    <div class="card-header">
+                        <div class="card-icon"><i class="fas fa-rocket"></i></div><span class="card-tier">Package
+                            C</span>
+                    </div>
+                    <h3>Full Business Automation</h3>
+                    <p class="card-desc">Complete digital transformation for ambitious businesses.</p>
+                    <ul class="card-features">
+                        <li><i class="fas fa-check"></i> Workflow automation</li>
+                        <li><i class="fas fa-check"></i> CRM integration</li>
+                        <li><i class="fas fa-check"></i> Customer chatbot</li>
+                        <li><i class="fas fa-check"></i> AI dashboards</li>
+                        <li><i class="fas fa-check"></i> Lead management</li>
+                    </ul>
+                    <div class="card-pricing"><span class="price-label">Starting at</span><span
+                            class="price">₹40,000</span></div>
+                    <a href="#audit" class="btn-card"><span>Get Started</span><i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 4: WHY HOSPITALITY & LOGISTICS -->
+    <section id="why" class="why">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge"><i class="fas fa-bullseye"></i> Our Focus</span>
+                <h2>Why Hospitality & Logistics?</h2>
+            </div>
+            <div class="why-checklist glass-card">
+                <ul class="checklist-grid">
+                    <li><i class="fas fa-check-circle"></i> Heavy manual workload</li>
+                    <li><i class="fas fa-check-circle"></i> Low tech adoption</li>
+                    <li><i class="fas fa-check-circle"></i> Immediate cost savings</li>
+                    <li><i class="fas fa-check-circle"></i> High efficiency boost</li>
+                    <li><i class="fas fa-check-circle"></i> Fast ROI within weeks</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 5: SAMPLE AUTOMATIONS -->
+    <section id="demos" class="demos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-badge"><i class="fas fa-play-circle"></i> Demos</span>
+                <h2>Sample <span class="text-gradient">Automations</span></h2>
+            </div>
+            <div class="demos-content glass-card">
+                <div class="demos-icon pulse-ring"><i class="fas fa-video"></i></div>
+                <h3>Demo videos coming soon.</h3>
+                <p>Schedule a free walkthrough to understand how your business can use AI automation.</p>
+                <a href="https://wa.me/919597230780?text=I+want+a+demo+walkthrough" class="btn-primary"><i
+                        class="fab fa-whatsapp"></i><span>Schedule Free Walkthrough</span></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 6: FREE AUTOMATION AUDIT -->
+    <section id="audit" class="audit">
+        <div class="container">
+            <div class="audit-card glass-card">
+                <div class="audit-content">
+                    <div class="audit-badge"><i class="fas fa-gift"></i><span>100% Free • No Obligation</span></div>
+                    <h2>Free 10-Minute <span class="text-gradient">Automation Audit</span></h2>
+                    <p class="audit-quote">"We will analyse your current operations and show you exactly what can be
+                        automated — no cost, no obligation."</p>
+                    <a href="https://wa.me/919597230780?text=I+want+an+automation+audit"
+                        class="btn-primary btn-glow btn-large"><i class="fab fa-whatsapp"></i><span>Chat on
+                            WhatsApp</span></a>
+                    <p class="cta-note">💬 Typically responds within 5 minutes</p>
+                </div>
+                <div class="audit-visual">
+                    <div class="floating-elements">
+                        <div class="float-badge badge-1"><i class="fas fa-robot"></i></div>
+                        <div class="float-badge badge-2"><i class="fas fa-chart-pie"></i></div>
+                        <div class="float-badge badge-3"><i class="fas fa-magic"></i></div>
+                        <div class="float-badge badge-4"><i class="fas fa-bolt"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECTION 7: CONTACT -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="logo footer-logo"><span class="logo-icon"><i
+                                class="fas fa-shield-halved"></i></span><span class="logo-text">SentraSec<span
+                                class="logo-highlight">AI</span></span></div>
+                    <p class="footer-tagline">Transforming businesses with intelligent automation.</p>
+                    <div class="footer-social">
+                        <a href="https://wa.me/919597230780" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://instagram.com/sentrasec.ai" aria-label="Instagram"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/in/arjumaan-sentrasec" aria-label="LinkedIn"><i
+                                class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <a href="#about">About Us</a>
+                        <a href="#services">Packages</a>
+                        <a href="#why">Why Us</a>
+                        <a href="#demos">Demos</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact Us</h4>
+                        <a href="tel:+919597230780"><i class="fas fa-phone"></i> +91 9597230780</a>
+                        <a href="https://wa.me/919597230780"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                        <a href="mailto:arjumaan21@gmail.com"><i class="fas fa-envelope"></i> arjumaan21@gmail.com</a>
+                        <a href="https://instagram.com/sentrasec.ai"><i class="fab fa-instagram"></i> @sentrasec.ai</a>
+                        <a href="https://linkedin.com/in/arjumaan-sentrasec"><i class="fab fa-linkedin"></i>
+                            LinkedIn</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 SentraSec AI Systems. All rights reserved.</p>
+                <p>Made with <i class="fas fa-heart"></i> from SentraSec AI Systems</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
