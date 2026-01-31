@@ -32,7 +32,7 @@ class ParticleSystem {
     }
 
     createParticles() {
-        const numberOfParticles = Math.min(80, Math.floor((this.canvas.width * this.canvas.height) / 18000));
+        const numberOfParticles = Math.min(120, Math.floor((this.canvas.width * this.canvas.height) / 12000));
         this.particles = [];
         for (let i = 0; i < numberOfParticles; i++) {
             const colorBase = this.colors[Math.floor(Math.random() * this.colors.length)];
@@ -42,7 +42,7 @@ class ParticleSystem {
                 size: Math.random() * 3 + 1.5,
                 speedX: (Math.random() - 0.5) * 0.4,
                 speedY: (Math.random() - 0.5) * 0.4,
-                opacity: Math.random() * 0.5 + 0.3,
+                opacity: Math.random() * 0.4 + 0.4,
                 colorBase: colorBase
             });
         }
