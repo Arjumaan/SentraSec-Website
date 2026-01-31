@@ -1,12 +1,12 @@
 # SentraSec AI Systems - Landing Page
 
-![SentraSec AI](https://img.shields.io/badge/SentraSec-AI%20Systems-6366f1?style=for-the-badge)
+![SentraSec AI](https://img.shields.io/badge/SentraSec-AI%20Systems-1D4ED8?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Live-22c55e?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-Proprietary-ef4444?style=for-the-badge)
 
 > **AI Automation for Hospitality & Logistics Businesses**
 
-Transform your restaurant, hotel, café, or logistics business with intelligent automation. Reduce workload by 60%, increase revenue, and delight your customers.
+Transform your restaurant, hotel, café, or logistics business with intelligent automation. Reduce workload, increase revenue, and delight your customers.
 
 ## 🌐 Live Website
 
@@ -16,11 +16,13 @@ Transform your restaurant, hotel, café, or logistics business with intelligent 
 
 ## 🚀 Features
 
-- **Modern UI/UX** - Glassmorphism design with smooth animations
-- **Particle Background** - Interactive particle system with mouse effects
-- **Fully Responsive** - Works on all devices
-- **Fast Loading** - Optimized for performance
-- **SEO Ready** - Proper meta tags and semantic HTML
+- **Professional Branding** - Integrated SentraSec logo across all sections
+- **High-Contrast CTA** - Optimized conversion paths with high-visibility call-to-actions
+- **Fixed & Stable UI** - Professional, movement-free design for a premium feel
+- **Fully Responsive** - Perfectly aligned mobile version
+- **About the Founder** - Dedicated section highlighting the vision and expertise
+- **Fast Loading** - Optimized performance with vanilla JS and CSS
+- **SEO Ready** - Proper meta tags, semantic HTML, and favicon integration
 
 ---
 
@@ -36,9 +38,9 @@ Transform your restaurant, hotel, café, or logistics business with intelligent 
 
 ## 🛠️ Tech Stack
 
-- HTML5
-- CSS3 (Custom Properties, Glassmorphism, Animations)
-- Vanilla JavaScript (Particle System, Scroll Effects)
+- HTML5 (Semantic Structure)
+- CSS3 (Variables, Glassmorphism, Responsive Media Queries)
+- Vanilla JavaScript (Particle System, UI States)
 - Font Awesome Icons
 - Google Fonts (Inter, Space Grotesk)
 
@@ -78,9 +80,10 @@ npx serve .
 ```
 SentraSec-Website/
 ├── index.html      # Main HTML file
-├── style.css       # All styles and animations
-├── script.js       # Particle system & interactions
-└── README.md       # This file
+├── style.css       # Core design system and layout
+├── script.js       # Core logic and particle system
+├── logo.png        # Official brand logo/icon
+└── README.md       # Project documentation
 ```
 
 ---
@@ -88,11 +91,13 @@ SentraSec-Website/
 ## 📝 Roadmap
 
 - [x] Landing page design
-- [x] Responsive design
-- [x] Particle animations
-- [x] Contact integration
+- [x] Responsive & Mobile optimization
+- [x] Logo & Favicon integration
+- [x] Contact/Audit path integration
+- [x] Founder section implementation
+- [x] High-contrast CTA optimization
+- [x] Stable/Movement-free UI
 - [ ] Demo videos section
-- [ ] Logo integration
 - [ ] Blog section
 
 ---

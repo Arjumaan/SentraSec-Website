@@ -186,48 +186,17 @@ const style = document.createElement('style');
 style.textContent = `
     .reveal-element {
         opacity: 0;
-        transform: translateY(40px);
-        transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+        transition: opacity 0.8s ease-out;
     }
     .reveal-element.revealed {
         opacity: 1;
-        transform: translateY(0);
     }
 `;
 document.head.appendChild(style);
 
-// ===== PARALLAX EFFECT FOR HERO GLOWS =====
-const heroGlows = document.querySelectorAll('.hero-glow, .hero-glow-2');
-if (heroGlows.length > 0) {
-    window.addEventListener('mousemove', (e) => {
-        const x = (e.clientX / window.innerWidth - 0.5) * 40;
-        const y = (e.clientY / window.innerHeight - 0.5) * 40;
-        heroGlows.forEach((glow, index) => {
-            const multiplier = index === 0 ? 1 : -0.7;
-            glow.style.transform = `translate(${x * multiplier}px, ${y * multiplier}px)`;
-        });
-    });
-}
+// Parallax disabled as per request
 
-// ===== TILT EFFECT FOR CARDS =====
-const cards = document.querySelectorAll('.glass-card');
-cards.forEach(card => {
-    card.addEventListener('mousemove', (e) => {
-        const rect = card.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        const centerX = rect.width / 2;
-        const centerY = rect.height / 2;
-        const rotateX = (y - centerY) / 20;
-        const rotateY = (centerX - x) / 20;
-
-        card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateY(-12px)`;
-    });
-
-    card.addEventListener('mouseleave', () => {
-        card.style.transform = '';
-    });
-});
+// Tilt effect disabled as per request
 
 // ===== NUMBER COUNTER FOR STATS (if exists) =====
 const animateCounter = (element) => {
@@ -272,19 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, 100);
 });
 
-// ===== MAGNETIC BUTTON EFFECT =====
-document.querySelectorAll('.btn-primary, .btn-nav-cta').forEach(btn => {
-    btn.addEventListener('mousemove', (e) => {
-        const rect = btn.getBoundingClientRect();
-        const x = e.clientX - rect.left - rect.width / 2;
-        const y = e.clientY - rect.top - rect.height / 2;
-        btn.style.transform = `translate(${x * 0.15}px, ${y * 0.15}px) translateY(-4px) scale(1.02)`;
-    });
-
-    btn.addEventListener('mouseleave', () => {
-        btn.style.transform = '';
-    });
-});
+// Magnetic effect disabled as per request
 
 console.log('🚀 SentraSec AI - Premium Landing Page Loaded!');
 console.log('📞 Contact: +91 9597230780');
